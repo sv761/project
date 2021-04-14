@@ -1,27 +1,29 @@
-1.Welcome Page 
+ Welcome to Scientific Calculator 
 
-2.Addition Operation
+1. Addition Operation
 
-3.Subtraction Operation
+2. Subtraction Operation
 
-4.Multiplication Operation
+3. Multiplication Operation
 
-5.Division Operation
+4. Division Operation
 
-6.Modulus Operation
+5. Modulus Operation
 
-7.Factorial Operation
+6. Factorial Operation
 
-8.Poewer Operation
+7. Power Operation
 
-9.Square Operation
+8. Square Operation
 
-10.Cube Operation
+9. Cube Operation
 
-11.Square Root Operation
+10. Square Root Operation
 
-12.Invalid operation
+11. Exit operation
 
+
+OUTPUT SCREENSHOTS HAS BEEN PASTED BELOW
 
 
 ![LTTS_Calculator_OUTPUT1](https://user-images.githubusercontent.com/82263269/114737033-3ff14900-9d64-11eb-833e-649073fc4ce3.PNG)
