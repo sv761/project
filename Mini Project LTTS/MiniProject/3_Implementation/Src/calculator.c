@@ -7,35 +7,35 @@ void addition()
     printf("Enter the numbers you want to add: ");
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("The sum of a and b is %d\n", a + b);
+    printf("The sum of %d and %d is %d\n", a, b, a + b);
 }
 void subtraction()
 {
     printf("Enter the numbers you want to subtract: ");
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("The subtraction of a and b is %d\n", a - b);
+    printf("The difference of %d and %d is %d\n", a, b, a - b);
 }
 void multiplication()
 {
     printf("Enter the numbers you want to multiply: ");
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("The multiplication of a and b is %d\n", a * b);
+    printf("The product of %d and %d is %d\n", a, b, a * b);
 }
 void division()
 {
     printf("Enter the numbers you want to divide: ");
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("The division of a and b is %f\n", a / b);
+    printf("The division of %d and %d is %f\n", a, b, (float)a / (float)b);
 }
 void modulus()
 {
     printf("Enter the numbers you want to find modulus of: ");
     int a, b;
     scanf("%d%d", &a, &b);
-    printf("The modulus of a and b is %d\n", a % b);
+    printf("The modulus of %d and %d is %d\n", a, b, a % b);
 }
 int fact(int n)
 {
@@ -61,33 +61,33 @@ void power()
     int x;
     int n;
     printf("Enter the base and the power: ");
-    scanf("%lf%lf", &x, &n);
+    scanf("%d%d", &x, &n);
     int ans = p(x, n);
-    printf("The power is %lf", ans);
+    printf("The power is %d", ans);
 }
 void square()
 {
     int n;
     printf("Enter the number you want the square of: ");
-    scanf("%lf", &n);
+    scanf("%d", &n);
     int ans = p(n, 2);
-    printf("The square of %lf is %lf", n, ans);
+    printf("The square of %d is %d", n, ans);
 }
 void cube()
 {
     int n;
     printf("Enter the number you want the cube of: ");
-    scanf("%lf", &n);
+    scanf("%d", &n);
     int ans = p(n, 3);
-    printf("The cube of %lf is %lf", n, ans);
+    printf("The cube of %d is %d", n, ans);
 }
 void squareroot()
 {
-    double b;
+    int b;
     printf("Enter the number you want the square root of : ");
-    scanf("%lf", &b);
-    double s = sqrt(b);
-    printf("The square root of %lf is %lf", b, s);
+    scanf("%d", &b);
+    int s = sqrt(b);
+    printf("The square root of %d is %d", b, s);
 }
 
 int main()
